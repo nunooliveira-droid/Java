@@ -27,5 +27,14 @@ public class Variables{
        
        System.out.println("My name is " + name + " and i have " + age + " years");
        System.out.println("birth date: " + BIRTH_DATE);
+
+       //Narrow casting is the conversion from a larger type(e.g. doble) to a smaller type (e.g. int) and it needs to be done manually
+       //Widening Casting is done automatically when passing a smaller size type into a larger size type
+
+       double scoreDouble = 25.50d;
+       int scoreInt = (int) scoreDouble; 
+
+       System.out.println("Score double: " + scoreDouble);
+       System.out.println("Score int: " + scoreInt);
     }
 }
