@@ -34,5 +34,19 @@ public class Strings{
 
         //Method concat to replace + 
         System.out.println(txt.concat(txt3).concat(txt2));
+
+        /*
+        Special Characters
+        \'	'	Single quote
+        \"	"	Double quote
+        \\	\	Backslash
+        \n	New Line	
+        \t	Tab	
+        \b	Backspace	
+        \r	Carriage Return	
+        \f	Form Feed
+        */
+
+       System.out.println("\'single quote\', \"Double quote\" and \n Newline \\backslash");
     }
 }
